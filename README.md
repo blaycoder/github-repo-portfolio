@@ -5,6 +5,7 @@
 In this portfolio, a user can fetch repositories, create a repository and also test the error boundary.
 
 I made use of nested routes in the project and also applied lazy loading and suspense to improve the performance of the web app. 
+I implemented the page not found page whenever the user visit the wrong path in the url.
 
 My tough time during this project was going through the octokit documentation. I could have used other ways to fetch  data but I just wanted to use this Octokit maybe becaus I have a coconut head 😂. The process of trying to understand the documentation and implementing it delayed me but I was able to use it to an extent.
 
