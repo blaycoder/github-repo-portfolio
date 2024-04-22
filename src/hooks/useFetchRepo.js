@@ -4,9 +4,7 @@ import octokit from "../octokit";
 const useFetchRepo = async (name) => {
  
   try {
-    const response = await octokit.request('GET /repos/{owner}/{repo}', {
-      owner: "blaycoder",
-      repo: name,
+    const response = await octokit.request(`GET /repos/blaycoder/${name}`, {
       headers: {
         "X-GitHub-Api-Version": "2022-11-28",
       },

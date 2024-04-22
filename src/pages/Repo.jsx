@@ -27,7 +27,6 @@ function Repo() {
   return (
     <section className="text-center mt-10 ">
       <div>
-        <img className="flex justify-center" src={repo.owner.avatar_url} alt={repo.name} />
         <h2 className="text-lg font-bold">Name: {repo.name}</h2>
         <p>
           <h2 className="text-lg">
