@@ -1,11 +1,12 @@
 
 import { Octokit} from "@octokit/core"
 // import vitePluginRequire from "vite-plugin-require";
-const token = import.meta.env.VITE_REACT_APP_GITHUB_API;
-console.log('token', token)
+// const token = import.meta.env.VITE_REACT_APP_GITHUB_API;
+// console.log('token', token)
 
 const octokit = new Octokit({
-  auth: token,
+  // auth: token,
+  auth: "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",
 });
 
 
